@@ -1,13 +1,17 @@
 # Bi-TEAM
 
-Bi-TEAM is the first unified framework explores cross-scale biochemical space to predict the properties of NNAA-containing peptides 
+Bi-TEAM is the first unified framework exploring cross-scale biochemical space to predict the properties of NNAA-containing peptides 
 
-![Bi-TEAM]{imgs/frame.png}
+## Overview
+Bi-TEAM begins by mapping each NNAA to its closest natural amino acid, preserving critical evolutionary and structural cues in standard PLM tokens. A bi-gated network preserves each domain’s primary representational role while adaptively integrating signals from the other domain. A residual fusion layer then retrieves and synthesizes these interdependent signals, revealing how local chemical perturbations drive changes in macroscopic peptide function. Additionally, a “modification location prompt” pinpoints the exact site of substitution, guiding a specialized CLM to capture the fine-grained chemical variation introduced by each NNAA.
+
+![Bi-TEAM](imgs/frame.png)
+
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.10 or higher
+- Python 3.10
 - Required Python packages (see Installation section)
 
 ### Installation
@@ -47,12 +51,13 @@ To run inference with a trained model:
 
 The framework comes with several pre-processed datasets:
 
+- **ncaa.xlsx**: NNAA mapping dictionary
 - **hemo.csv**: Hemolysis data
 - **human.csv**: Non-fouling data
-- **ncaa.xlsx**: NNAA mapping dictionary
-- **pampa.csv**: Parallel Artificial Membrane Permeability Assay data
-- **Rezai.csv**: External dataset (details in paper)
 - **solubility.csv**: Solubility data
+- **pampa.csv**: Parallel Artificial Membrane Permeability Assay data
+- **Rezai.csv**: External natural peptide dataset (details in paper)
+
 
 ## Customization
 
