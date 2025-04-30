@@ -1,7 +1,8 @@
 # Bi-TEAM
 
-Bi-TEAM is a versatile machine learning framework designed to handle diverse datasets and modeling tasks. This tool provides a complete workflow from data processing to model training and inference.
+Bi-TEAM is the first unified framework explores cross-scale biochemical space to predict the properties of NNAA-containing peptides 
 
+![Bi-TEAM]{imgs/frame.png}
 ## Getting Started
 
 ### Prerequisites
