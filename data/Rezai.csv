@@ -1,0 +1,12 @@
+compd,Sequence,SMILES,xxg,number_of_h_bond,PSA,Permeability_class
+3,Leu-D-Leu-D-Leu-D-Leu-Pro-Tyr,CC(C)C[C@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,-2.87,3,112.2,0
+25,Leu-Leu-D-Leu-D-Pro-Pro-Tyr,CC(C)C[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,1.63,2,150.5,0
+42,D-Leu-D-Pro-Leu-Leu-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@@H]1CCCN1C(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,3.48,2,119.8,0
+46,D-Leu-D-Leu-D-Leu-Leu-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,3.88,0,170.4,0
+69,D-Leu-D-Leu-D-Leu-D-Leu-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,-3.04,3,118.1,0
+100,D-Leu-D-Leu-Leu-D-Leu-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,-2.31,3,116.1,0
+112,D-Leu-Pro-D-Leu-D-Pro-Leu-D-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@H]1CCCN1C(=O)[C@@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,5.36,1,144.5,0
+114,Leu-D-Leu-Leu-Leu-D-Pro-Tyr,CC(C)C[C@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,-1.17,3,120.5,0
+218,Leu-Leu-Pro-D-Leu-Leu-D-Pro-Tyr,CC(C)C[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H]1CCCN1C(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,1.47,1,148.4,0
+225,Leu-D-Leu-D-Leu-D-Pro-Leu-D-Pro-Tyr,CC(C)C[C@H](NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,3.36,1,134.4,0
+294,D-Leu-Leu-D-Leu-Leu-Leu-D-Pro-Tyr,CC(C)C[C@@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H]1CCCN1C(=O)[C@H](Cc2ccc(O)cc2)NC1=O)C(=O)1,-3.7,3,130.1,0
