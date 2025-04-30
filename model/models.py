@@ -3,27 +3,6 @@ import torch.nn as nn
 from transformers import AutoModel, AutoTokenizer
 import selfies as sf
 
-class ClassificationHead(nn.Module):
-    def __init__(self, input_dim, hidden_dim, num_classes):
-        """
-        Classification head with multi-layer architecture.
-        """
-        super(ClassificationHead, self).__init__()
-        self.fc1 = nn.Linear(input_dim, hidden_dim)
-        self.relu = nn.ReLU()
-        self.fc2 = nn.Linear(hidden_dim, hidden_dim//2)
-        self.fc3 = nn.Linear(hidden_dim//2, num_classes)
-
-    def forward(self, x):
-        """
-        Forward pass through the classification head.
-        """
-        x = self.fc1(x)
-        x = self.relu(x)
-        x = self.fc2(x)
-        x = self.relu(x)
-        x = self.fc3(x)
-        return x
     
 class ESMModule(nn.Module):
     """ESM language model module for sequence processing."""
