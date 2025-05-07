@@ -5,7 +5,7 @@ Bi-TEAM is the first unified framework exploring cross-scale biochemical space t
 ## Overview
 Bi-TEAM begins by mapping each NNAA to its closest natural amino acid, preserving critical evolutionary and structural cues in standard PLM tokens. A bi-gated network preserves each domain’s primary representational role while adaptively integrating signals from the other domain. A residual fusion layer then retrieves and synthesizes these interdependent signals, revealing how local chemical perturbations drive changes in macroscopic peptide function. Additionally, a “modification location prompt” pinpoints the exact site of substitution, guiding a specialized CLM to capture the fine-grained chemical variation introduced by each NNAA.
 
-![Bi-TEAM](imgs/frame.png)
+![Bi-TEAM](framework.png)
 
 ## Getting Started
 
@@ -69,18 +69,6 @@ You can extend the framework by:
 3. Modifying data preprocessing in `utils/data_utils.py`
 4. Adjusting configuration parameters in `config/config.py`
 
-
-## Citation
-If you use Bi-TEAM in your research, please cite our paper:
-
-```bibtex
-@article{zhang2025sagephos,
-  title={SAGEPhos: Sage Bio-Coupled and Augmented Fusion for Phosphorylation Site Detection},
-  author={Zhang, Jingjie and Cao, Hanqun and Gao, Zijun and Wang, Xiaorui and Gu, Chunbin},
-  journal={arXiv preprint arXiv:2502.07384},
-  year={2025}
-}
-```
 
 ## Contact
 
