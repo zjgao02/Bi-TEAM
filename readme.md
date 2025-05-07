@@ -57,7 +57,8 @@ The framework comes with several pre-processed datasets:
 - **solubility.csv**: Solubility data
 - **pampa.csv**: Parallel Artificial Membrane Permeability Assay data
 - **Rezai.csv**: External natural peptide dataset (details in paper)
-
+- **ProCacoPAMPA.csv**: External non-natural peptide dataset (details in paper)
+- **CycPeptMPDB v1.2.csv**: External non-natural peptide dataset (details in paper)
 
 ## Customization
 
